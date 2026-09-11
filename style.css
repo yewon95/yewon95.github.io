@@ -17,7 +17,7 @@ h1, h2, h3, p { margin-top: 0; }
 h1 { font-size: 44px; line-height: 1.2; letter-spacing: -.8px; margin-bottom: 10px; }
 h1 a { color: white; text-decoration: none; }
 h1 a:hover { color: white; }
-.profile-role { font-size: 15px; margin-bottom: 24px; color: #fff; }
+.profile-role { font-size: 18px; margin-bottom: 24px; color: #fff; }
 .social-links { display: flex; justify-content: center; gap: 12px; }
 .social-links a { display: grid; place-items: center; width: 39px; height: 39px; border-radius: 50%; color: #36494e; background: white; box-shadow: 0 2px 5px #0002; transition: transform .15s; }
 .social-links a:hover { transform: translateY(-2px); background: #edf7fb; }
@@ -73,7 +73,7 @@ footer a { color: var(--muted); text-decoration: none; }
  .profile { padding: 42px 20px 60px; }
  .portrait-link { width: 150px; height: 150px; }
  h1 { font-size: 34px; }
- .profile-role { font-size: 13px; }
+ .profile-role { font-size: 16px; }
  .social-links a { width: 35px; height: 35px; }
  nav { padding: 5px 8px; gap: 0; }
  nav a { font-size: 12px; padding: 6px 8px; }
