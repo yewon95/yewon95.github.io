@@ -1,139 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <title>Website-Yewon</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#315b67">
+  <meta name="description" content="Yewon Hwang, postdoctoral researcher at KIST. Computer vision, multimodal learning, and intelligent systems.">
+  <title>Yewon Hwang</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
-
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Yewon Hwang</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#publication">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">Hello, Welcome!</h1>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg">
-                    <div style="text-align: center;">
-                        <img src="yewon.jpg" width="200" height="200">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg">
-                    <h2 class="text-center">About Me</h2>
-                        <p class="text-center"> Hi, my name is Yewon Hwang.
-                            I'm a Ph.D. student in Robot Intelligence Technology Lab, supervised by professor Jong-Hwan Kim at KAIST. <br />
-                            My main research interest lies in multimodal learning, specifically in sentiment analysis and emotion recognition tasks. <br />
-                            Here is my <a href="./cv_2024.pdf">CV.</a>
-                        </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="education">
-        <div class="container mt-4 pt-4">
-            <div class="col-lg">
-                <h2>Education</h2>
-                    <ul>
-                        <li style="font-size:20px"> Ph.D. in Electrical Engineering (2021-current)</li>
-                        <ul>
-                            <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
-                            <li>Advisor: Prof. Jong-Hwan Kim</li>
-                        </ul>
-                        <li style="font-size:20px"> M.S. in Electrical Engineering (2019-2021)</li>
-                            <ul>
-                            <li>Korea Advanced Institute of Science and Technology (KAIST)</li>
-                                <li>Thesis: <i>WITA: Writing In The Air Recognition System Using RGB Data</i></li>
-                            <li>Advisor: Prof. Jong-Hwan Kim</li>
-                        </ul>
-                        <li style="font-size:20px"> B.S. in Mechanical Engineering (2014-2018)</li>
-                            <ul>
-                            <li>The Pennsylvania State University</li>
-                        </ul>
-                    </ul>
-            </div>
-        </div>
-    </section>
-    <section id="publication">
-        <div class="container mt-4 pt-4">
-            <div class="col-lg">
-                <h2>Publications</h2>
-                <i>(* equal contribution)</i>
-                <p>
-                    <h5>EASUM: Enhancing Affective State Understanding through Joint Sentiment and Emotion Modeling for Multimodal Tasks</h5>
-                    <b>Yewon Hwang</b> and Jong-Hwan Kim <br />
-                WACV 2024, <a href="./easum.pdf">PDF</a><br />
-                </p>
-                <p>
-                    <h5>Self-Supervised Unimodal Label Generation Strategy Using Recalibrated Modality Representations for Multimodal Sentiment Analysis</h5>
-                    <b>Yewon Hwang</b> and Jong-Hwan Kim <br />
-                EACL Findings 2023, <a href="./sugrm.pdf">PDF</a> <br />
-                </p>
-                <p>
-                    <h5>Writing in The Air: Unconstrained Text Recognition from Finger Movement Using Spatio-Temporal Convolution</h5>
-                    Ue-Hwan Kim*, <b>Yewon Hwang*</b>, Sun-Kyung Lee, Jong-Hwan Kim <br />
-                IEEE Trans. on Artificial Intelligence (TAI) 2022, <a href="./wita.pdf">PDF</a> <br />
-                </p>
-                <p>
-                <h5>Type Anywhere You Want: An Introduction to Invisible Mobile Keyboard</h5>
-                Sahng-Min Yoo, Ue-Hwan Kim, <b>Yewon Hwang</b>, Jong-Hwan Kim <br />
-                IJCAI 2021, <a href="./type_anywhere_you_want.pdf">PDF</a> <br />
-                </p>
-                <p>
-                <h5>Marsnet: Multi-label classification network for images of various sizes</h5>
-                Ju-Youn Park, <b>Yewon Hwang</b>, Dukyoung Lee, Jong-Hwan Kim <br />
-                IEEE Access 2020, <a href="./marsnet.pdf">PDF</a> <br />
-                </p>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container mt-4 pt-4">
-            <div class="col-lg">
-                <h2>Contact</h2>
-                For any inquiry regarding my research, feel free to contact me at <b><i>ywhwang@rit.kaist.ac.kr</i></b>
-            </div>
-        </div>
-    </section>
-    <section id="null">
-        <div class="container mt-4 pt-4">
-            <div class="col-lg">
-
-            </div>
-        </div>
-    </section>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="profile-header" id="top">
+  <div class="profile">
+    <a class="portrait-link" href="./index.html" aria-label="Yewon Hwang home"><img src="./yewon.png" width="190" height="190" alt="Portrait of Yewon Hwang" fetchpriority="high"></a>
+    <h1><a href="./index.html">Yewon Hwang</a></h1>
+    <p class="profile-role">AI Researcher</p>
+    <div class="social-links"><a href="https://www.linkedin.com/in/yhwang16/" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M5.37 24H.39V7.98h4.98zM2.88 5.79A2.89 2.89 0 1 1 2.9 0a2.89 2.89 0 0 1-.02 5.79zM24 24h-4.97v-7.8c0-1.86-.04-4.25-2.59-4.25-2.59 0-2.99 2.02-2.99 4.12V24H8.48V7.98h4.77v2.19h.07c.66-1.26 2.29-2.59 4.71-2.59 5.04 0 5.97 3.32 5.97 7.63z"/></svg></a><a href="https://scholar.google.com/citations?user=3Ul3fwwAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M12 0 0 9.5l4.838 3.94A7.96 7.96 0 0 1 12 9a7.96 7.96 0 0 1 7.162 4.44L24 9.5z"/><circle fill="#4285F4" cx="12" cy="17" r="7"/><path fill="#356AC3" d="M12 10a7 7 0 0 1 0 14z"/></svg></a></div>
+  </div>
+</header>
+<div class="nav-wrap"><nav aria-label="Main navigation"><a href="./index.html" aria-current="page">Home</a><a href="./publications.html">Publications</a><a href="./experience.html">About me</a><a href="./cv_2026_en.pdf">CV</a></nav></div>
+<main id="main"><section id="about" class="home-intro" aria-label="About Yewon Hwang">
+<p>Hello! I am <strong>Dr. Yewon Hwang</strong>, a postdoctoral researcher at the <strong>Korea Institute of Science and Technology (KIST)</strong>.</p>
+<p>I received my Ph.D. in Electrical Engineering from <strong>KAIST</strong> in 2024, where I worked on multimodal learning for sentiment analysis and emotion recognition. Before that, I earned my M.S. at KAIST and my B.S. in Mechanical Engineering at Pennsylvania State University.</p>
+<p>My research focuses on how AI can understand people and dynamic environments through <strong>vision, language, and sensor data</strong>. At KIST, I work on multi-object tracking, sports video understanding, and vision-language models. I also explore multimodal healthcare AI and LLM-based task planning.</p>
+<p>My recent work includes <a href="./broadcast2pitch.pdf">Broadcast2Pitch</a> and <a href="./broadcast2pitch++.pdf">Broadcast2Pitch++</a>, which reconstruct game states from soccer broadcast videos. My research has been recognized with the <strong>WACV 2026 Best Paper award</strong> and <strong>first place in the SoccerNet Challenge 2025</strong>.</p>
+<p>You can read more about my <a href="./experience.html">background and research experience</a>, browse my <a href="./publications.html">publications</a>, or download my <a href="./cv_2026_en.pdf">English CV</a>.</p>
+<p id="contact">For research inquiries or collaboration, please contact me at <a href="mailto:yewonhwang0816@gmail.com">yewonhwang0816@gmail.com</a>.</p>
+</section></main>
+<footer><p>© 2026 Yewon Hwang</p><a href="mailto:yewonhwang0816@gmail.com">Contact</a><a href="#top">Back to top ↑</a></footer>
 </body>
-
 </html>

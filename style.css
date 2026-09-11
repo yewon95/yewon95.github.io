@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root { --ink: #333b3e; --muted: #667176; --link: #226f90; --line: #e3e7e9; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 30px; }
+body { margin: 0; background: #fff; color: var(--ink); font: 16px/1.75 'Lato', Arial, sans-serif; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { color: #174c63; }
+a:focus-visible, button:focus-visible { outline: 3px solid #62b8de; outline-offset: 5px; }
+[hidden] { display: none !important; }
+h1, h2, h3, p { margin-top: 0; }
+.profile-header { position: relative; isolation: isolate; text-align: center; color: white; background: radial-gradient(ellipse at 12% 0%, #76a4b2 0%, transparent 65%), radial-gradient(ellipse at 95% 0%, #9ba99a 0%, transparent 68%), linear-gradient(120deg, #204f62, #3d4d4a); }
+.profile-header::before { content: ''; position: absolute; inset: 0; z-index: -1; opacity: .28; background-image: repeating-linear-gradient(0deg, transparent 0 2px, #ffffff14 2px 3px, transparent 3px 5px), repeating-linear-gradient(90deg, transparent 0 2px, #10282f26 2px 3px, transparent 3px 5px); }
+.profile { padding: 64px 20px 76px; }
+.portrait-link { display: block; width: 190px; height: 190px; margin: 0 auto 17px; border-radius: 50%; }
+.portrait-link img { display: block; width: 100%; height: 100%; object-fit: cover; border: 4px solid #fff; border-radius: 50%; box-shadow: 0 3px 8px #0003; }
+h1 { font-size: 44px; line-height: 1.2; letter-spacing: -.8px; margin-bottom: 10px; }
+h1 a { color: white; text-decoration: none; }
+h1 a:hover { color: white; }
+.profile-role { font-size: 15px; margin-bottom: 24px; color: #fff; }
+.social-links { display: flex; justify-content: center; gap: 12px; }
+.social-links a { display: grid; place-items: center; width: 39px; height: 39px; border-radius: 50%; color: #36494e; background: white; box-shadow: 0 2px 5px #0002; transition: transform .15s; }
+.social-links a:hover { transform: translateY(-2px); background: #edf7fb; }
+.social-links svg { width: 21px; height: 21px; }
+.nav-wrap { display: flex; justify-content: center; margin-top: -23px; position: relative; padding: 0 14px; }
+nav { display: flex; justify-content: center; flex-wrap: wrap; padding: 4px 13px; border-radius: 28px; background: white; box-shadow: 0 2px 5px #0004; gap: 2px; }
+nav a { text-decoration: none; color: #30363a; font-size: 15px; padding: 5px 12px; border-radius: 20px; }
+nav a[aria-current="page"] { font-weight: 700; background: #edf3f5; }
+nav a:hover { background: #edf3f5; }
+main { width: min(760px, calc(100% - 44px)); margin: 52px auto 0; min-height: 240px; }
+.home-intro p { margin-bottom: 22px; }
+strong { font-weight: 700; }
+h2 { font-size: 30px; line-height: 1.35; font-weight: 700; margin-bottom: 23px; }
+h3 { font-size: 20px; line-height: 1.5; margin-bottom: 10px; }
+.section-heading { margin-bottom: 24px; }
+.section-note { color: var(--muted); font-size: 13px; }
+.divider { margin: 0 10px; }
+.publication-tools { margin-bottom: 20px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.filters button { font: inherit; font-size: 12px; border: 1px solid #c8d5dc; background: white; color: #375564; border-radius: 16px; padding: 5px 12px; cursor: pointer; }
+.filters button.active { color: white; border-color: #315b67; background: #315b67; }
+#paper-count { font-size: 12px; color: var(--muted); }
+.paper { border-top: 1px solid var(--line); padding: 24px 0; display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 3px 20px; }
+.paper-year { font-size: 14px; color: var(--muted); }
+.venue { color: #53727e; font-size: 13px; margin-bottom: 6px; }
+.paper h3 { font-size: 18px; line-height: 1.5; margin-bottom: 9px; }
+.paper h3 a { text-decoration: none; }
+.paper h3 a:hover { text-decoration: underline; }
+.authors { font-size: 14px; line-height: 1.7; margin: 0; color: #58636a; }
+.authors strong { color: #303a40; }
+.paper-link { grid-column: 2; justify-self: start; font-size: 13px; margin-top: 8px; }
+.research-card { padding: 8px 0 26px; margin-bottom: 22px; border-bottom: 1px solid var(--line); }
+.research-card p { margin-bottom: 15px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags span { font-size: 12px; color: #426573; background: #edf3f5; padding: 3px 10px; border-radius: 3px; }
+.timeline-entry { margin-bottom: 30px; }
+.date { font-size: 12px; color: var(--muted); letter-spacing: .4px; margin-bottom: 5px; }
+.timeline-entry h3 { margin-bottom: 2px; }
+.institution { color: #53727e; margin-bottom: 10px; }
+.education-panel { border-top: 1px solid var(--line); padding-top: 30px; margin-top: 35px; }
+.eyebrow { font-size: 18px; font-weight: 700; margin-bottom: 20px; }
+.education-panel h3 { font-size: 18px; margin: 22px 0 3px; }
+.education-panel p:not(.eyebrow) { margin-bottom: 3px; }
+.education-panel > span { font-size: 13px; color: var(--muted); }
+.panel-bottom { margin-top: 30px; padding-top: 25px; border-top: 1px solid var(--line); }
+.panel-bottom .text-link { display: inline-block; margin-top: 15px; }
+footer { width: min(760px, calc(100% - 44px)); margin: 64px auto 0; padding: 24px 0 35px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 20px; color: var(--muted); font-size: 12px; }
+footer p { margin: 0 auto 0 0; }
+footer a { color: var(--muted); text-decoration: none; }
+.skip-link { position: absolute; top: -70px; left: 16px; z-index: 5; background: white; padding: 8px 16px; }
+.skip-link:focus { top: 12px; }
+@media (max-width: 600px) {
+ .profile { padding: 42px 20px 60px; }
+ .portrait-link { width: 150px; height: 150px; }
+ h1 { font-size: 34px; }
+ .profile-role { font-size: 13px; }
+ .social-links a { width: 35px; height: 35px; }
+ nav { padding: 5px 8px; gap: 0; }
+ nav a { font-size: 12px; padding: 6px 8px; }
+ main { margin-top: 38px; }
+ body { font-size: 15px; }
+ h2 { font-size: 26px; }
+ .paper { grid-template-columns: 1fr; gap: 6px; }
+ .paper-link { grid-column: 1; }
+ .paper h3 { font-size: 17px; }
+ .authors { font-size: 13px; }
+ footer { margin-top: 40px; gap: 15px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .social-links a { transition: none; } }
+
+.timeline-entry ul { padding-left: 22px; margin: 10px 0 16px; }
+.timeline-entry li { margin-bottom: 8px; }
