@@ -4,7 +4,7 @@
     "venue": "Machine Vision and Applications",
     "title": "Broadcast2Pitch++: Depth-Aware Game State Reconstruction from Unconstrained Soccer Videos",
     "authors": "Yewon Hwang, Yin May Oo*, Muhammad Amrulloh Robbani*, Vanyi Chao, Ankhzaya Jamsrandorj, Hoang Quoc Nguyen, Kyung-Ryoul Mun, Jinwook Kim",
-    "file": "broadcast2pitch++.pdf",
+    "file": "publications/broadcast2pitch++.pdf",
     "topic": "Computer vision"
   },
   {
@@ -12,7 +12,7 @@
     "venue": "WACV",
     "title": "Broadcast2Pitch: Game State Reconstruction from Unconstrained Soccer Videos",
     "authors": "Yin May Oo*, Yewon Hwang*, Muhammad Amrulloh Robbani, Vanyi Chao, Ankhzaya Jamsrandorj, Hoang Quoc Nguyen, Kyung-Ryoul Mun, Jinwook Kim",
-    "file": "broadcast2pitch.pdf",
+    "file": "publications/broadcast2pitch.pdf",
     "topic": "Computer vision"
   },
   {
@@ -20,7 +20,7 @@
     "venue": "BMVC",
     "title": "Spatiotemporal Event Spotting via 3D Heatmaps with Dynamically Shifted Gaussian Kernels",
     "authors": "Ankhzaya Jamsrandorj*, Vanyi Chao*, Hoang Quoc Nguyen, Yin May Oo, Muhammad Amrulloh Robbani, Yewon Hwang, Kyung-Ryoul Mun, Jinwook Kim",
-    "file": "bmvc.pdf",
+    "file": "publications/bmvc.pdf",
     "topic": "Computer vision"
   },
   {
@@ -28,7 +28,7 @@
     "venue": "CVPR · CVsports Workshop",
     "title": "Jump-Aware: Player Position Rectification and Identification in Dynamic Sports Using Jump Event Spotting",
     "authors": "Yin May Oo, Ankhzaya Jamsrandorj, Vanyi Chao, Hoang Quoc Nguyen, Yewon Hwang, Kyung-Ryoul Mun, Jinwook Kim",
-    "file": "cvpr_workshop.pdf",
+    "file": "publications/cvpr_workshop.pdf",
     "topic": "Computer vision"
   },
   {
@@ -36,7 +36,7 @@
     "venue": "WACV",
     "title": "EASUM: Enhancing Affective State Understanding through Joint Sentiment and Emotion Modeling for Multimodal Tasks",
     "authors": "Yewon Hwang, Jong-Hwan Kim",
-    "file": "easum.pdf",
+    "file": "publications/easum.pdf",
     "topic": "Multimodal learning"
   },
   {
@@ -44,7 +44,7 @@
     "venue": "Findings of EACL",
     "title": "Self-Supervised Unimodal Label Generation Strategy Using Recalibrated Modality Representations for Multimodal Sentiment Analysis",
     "authors": "Yewon Hwang, Jong-Hwan Kim",
-    "file": "sugrm.pdf",
+    "file": "publications/sugrm.pdf",
     "topic": "Multimodal learning"
   },
   {
@@ -52,7 +52,7 @@
     "venue": "Robot Intelligence Technology and Applications",
     "title": "Deep Q-Network for AI Soccer",
     "authors": "Curie Kim*, Yewon Hwang*, Jong-Hwan Kim",
-    "file": "ai_soccer.pdf",
+    "file": "publications/ai_soccer.pdf",
     "topic": "Reinforcement learning"
   },
   {
@@ -60,7 +60,7 @@
     "venue": "IEEE Transactions on Artificial Intelligence",
     "title": "Writing in the Air: Unconstrained Text Recognition from Finger Movement Using Spatio-Temporal Convolution",
     "authors": "Ue-Hwan Kim*, Yewon Hwang*, Sun-Kyung Lee, Jong-Hwan Kim",
-    "file": "wita.pdf",
+    "file": "publications/wita.pdf",
     "topic": "Human–computer interaction"
   },
   {
@@ -68,7 +68,7 @@
     "venue": "IJCAI",
     "title": "Type Anywhere You Want: An Introduction to Invisible Mobile Keyboard",
     "authors": "Sahng-Min Yoo, Ue-Hwan Kim, Yewon Hwang, Jong-Hwan Kim",
-    "file": "type_anywhere_you_want.pdf",
+    "file": "publications/type_anywhere_you_want.pdf",
     "topic": "Human–computer interaction"
   },
   {
@@ -76,7 +76,7 @@
     "venue": "IEEE Access",
     "title": "Marsnet: Multi-label Classification Network for Images of Various Sizes",
     "authors": "Ju-Youn Park, Yewon Hwang, Dukyoung Lee, Jong-Hwan Kim",
-    "file": "marsnet.pdf",
+    "file": "publications/marsnet.pdf",
     "topic": "Computer vision"
   }
 ]
