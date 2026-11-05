@@ -8,8 +8,11 @@ Static website for GitHub Pages. No build step required.
 index.html                Home and contact information
 publications.html         Publications and topic filters
 experience.html           About me, education, and skills
+portfolio.html            Portfolio landing page
+cv.html                   Links to English and Korean CVs
 publications/             All ten publication PDFs
-cv/                       English CV PDF and editable HTML source
+cv/                       English CV (PDF + HTML source) and Korean CV PDF
+portfolio/                Self-contained research portfolio (Korean)
 assets/css/               Shared stylesheet
 assets/js/                Publication filtering script
 assets/images/            Portrait and favicon
