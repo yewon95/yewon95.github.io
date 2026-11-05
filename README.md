@@ -12,7 +12,7 @@ portfolio.html            Portfolio landing page
 cv.html                   Links to English and Korean CVs
 publications/             All ten publication PDFs
 cv/                       English CV (PDF + HTML source) and Korean CV PDF
-portfolio/                Self-contained research portfolio (Korean)
+portfolio/                Self-contained research portfolios (English and Korean)
 assets/css/               Shared stylesheet
 assets/js/                Publication filtering script
 assets/images/            Portrait and favicon
